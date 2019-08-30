@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 		$.ajax({
 			type: "POST",
-			url: "php/cad.php",
+			url: "/php/cad.php",
 			data: dados,
 			success: function(data)
 			{
